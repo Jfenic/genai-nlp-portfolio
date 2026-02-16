@@ -41,4 +41,4 @@ Critical analysis of AI technology.
 - **Content:** Ethical analysis, Future trends.
 
 ---
-*Repository maintained by [Your Name]*
+*Repository maintained by Jose Fenic*
