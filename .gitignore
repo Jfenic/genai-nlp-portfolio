@@ -4,3 +4,66 @@ __pycache__/
 .ipynb_checkpoints/
 venv/
 *.pyc
+
+# --- Entornos Virtuales ---
+.venv/
+env/
+venv/
+bin/
+obj/
+# Conda environments
+anaconda-project/
+.condarc
+
+# --- Datos y Pesos (Lo más importante) ---
+# No subir datasets (suelen ser muy pesados)
+data/
+datasets/
+*.csv
+*.json
+*.h5
+*.npy
+*.npz
+
+# No subir modelos entrenados o pesos
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+weights/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Opcional: si quieres subir notebooks pero no sus resultados (plots pesados)
+# usa herramientas como 'nbstripout'
+
+# --- Python & Sistema ---
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+.env
+.vscode/
+.idea/
+
+# --- Imágenes y Multimedia ---
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+
+# Carpetas comunes de imágenes en IA
+images/
+img/
+raw_images/
+processed_images/
+preprocessed/
+test_samples/
